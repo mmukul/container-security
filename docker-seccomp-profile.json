@@ -1,0 +1,43 @@
+{
+    "defaultAction": "SCMP_ACT_ERRNO",
+    "architectures": [
+        "SCMP_ARCH_X86_64"
+    ],
+    "syscalls": [
+        {
+            "names": [
+                "arch_prctl",
+                "brk",
+                "clone",
+                "close",
+                "execve",
+                "exit",
+                "exit_group",
+                "fcntl",
+                "futex",
+                "getpid",
+                "gettid",
+                "kill",
+                "madvise",
+                "mincore",
+                "mmap",
+                "munmap",
+                "open",
+                "pselect6",
+                "read",
+                "readlinkat",
+                "rt_sigaction",
+                "rt_sigprocmask",
+                "rt_sigreturn",
+                "sched_getaffinity",
+                "sched_yield",
+                "setitimer",
+                "sigaltstack",
+                "stat",
+                "tkill",
+                "write"
+            ],
+            "action": "SCMP_ACT_ALLOW"
+        }
+    ]
+}
